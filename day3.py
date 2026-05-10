@@ -18,3 +18,15 @@ t = int(input("enter the time duration:"))
 
 si = (p*r*t)/100
 print("simple interest is",si)
+
+#swapping
+a = int(input("give the a value:"))
+b = int(input("give the b value:"))
+temp = a 
+a = b
+b = temp
+print(" the value of a now is ",a,".","the value of b now is",b)
+
+a,b = b, a 
+print(a,b)
+
