@@ -30,3 +30,12 @@ print(" the value of a now is ",a,".","the value of b now is",b)
 a,b = b, a 
 print(a,b)
 
+
+#electricity bill calculator
+a = int(input("enter the number of current units used:"))
+if a<= 100:
+    print(a*1.50)
+elif a <= 200:
+    print(100*1.50 + (a-100)*2.50)
+else:
+    print(100*1.50 + 100*2.50 + (a-200)*4)
