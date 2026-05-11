@@ -24,3 +24,15 @@ elif marks >= 50:
     print("Grade: D")
 else:
     print("Grade: F - Please study harder!")
+
+
+
+    # Number checker
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Positive number")
+elif num < 0:
+    print("Negative number")
+else:
+    print("Zero")
