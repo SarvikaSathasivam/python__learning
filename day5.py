@@ -25,3 +25,16 @@ while i <= num:
     total = total + i
     i = i + 1
 print("Sum of 1 to", num, "is:", total)
+
+# Guess the number game
+secret = 7
+guess = int(input("Guess the secret number between 1 and 10: "))
+
+while guess != secret:
+    if guess < secret:
+        print("Too low! Try again")
+    else:
+        print("Too high! Try again")
+    guess = int(input("Guess again: "))
+
+print("Correct! You guessed it! 🎉")
