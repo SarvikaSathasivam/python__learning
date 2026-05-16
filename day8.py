@@ -22,3 +22,9 @@ print("Sum =", sum_n)
 
 for i in range(2, 51, 2):
     print(i)
+
+
+# Star Pattern Program
+
+for i in range(1, 6):
+    print("*" * i)
