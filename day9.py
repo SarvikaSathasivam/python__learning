@@ -26,3 +26,16 @@ for fruit in fruits:
 # Check if item exists
 if "mango" in fruits:
     print("Mango is in the list!")
+
+
+numbers = [34, 67, 23, 89, 45, 12, 90, 56]
+
+# Assume first number is the largest
+largest = numbers[0]
+
+# Loop through the list
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print("Largest number is:", largest)
