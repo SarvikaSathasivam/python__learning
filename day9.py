@@ -55,3 +55,14 @@ for num in numbers:
 
 print("Even numbers count:", even_count)
 print("Odd numbers count:", odd_count)
+
+
+numbers = [1, 2, 3, 4, 5]
+
+reversed_list = []
+
+# Loop backwards through the list
+for i in range(len(numbers) - 1, -1, -1):
+    reversed_list.append(numbers[i])
+
+print("Reversed list:", reversed_list)
